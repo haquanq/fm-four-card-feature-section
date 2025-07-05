@@ -47,10 +47,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-body {
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}
 img,
 picture,
 video,
@@ -91,6 +87,8 @@ body {
     color: var(--clr-grayish-blue);
     font-family: var(--font-sans);
     font-size: 0.9375rem;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 .intro {
     padding-top: 5.4375rem;
