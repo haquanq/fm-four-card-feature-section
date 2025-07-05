@@ -26,15 +26,15 @@
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 :root {
-    --clr-red-hsl: 0, 78%, 62%;
-    --clr-cyan-hsl: 180, 62%, 55%;
-    --clr-orange-hsl: 34, 97%, 64%;
-    --clr-blue-hsl: 212, 86%, 64%;
+    --color-red-hsl: 0, 78%, 62%;
+    --color-cyan-hsl: 180, 62%, 55%;
+    --color-orange-hsl: 34, 97%, 64%;
+    --color-blue-hsl: 212, 86%, 64%;
 
-    --clr-very-dark-blue: hsl(234, 12%, 34%);
-    --clr-grayish-blue: hsl(229, 6%, 66%);
-    --clr-very-light-gray: hsl(0, 0%, 98%);
-    --clr-white: #fff;
+    --color-very-dark-blue: hsl(234, 12%, 34%);
+    --color-grayish-blue: hsl(229, 6%, 66%);
+    --color-very-light-gray: hsl(0, 0%, 98%);
+    --color-white: #fff;
 
     --font-sans: "Poppins", sans-serif;
     --font-thin: 200;
@@ -83,8 +83,8 @@ h6 {
 }
 body {
     min-height: 100vh;
-    background-color: var(--clr-very-light-gray);
-    color: var(--clr-grayish-blue);
+    background-color: var(--color-very-light-gray);
+    color: var(--color-grayish-blue);
     font-family: var(--font-sans);
     font-size: 0.9375rem;
     line-height: 1;
@@ -96,7 +96,7 @@ body {
 }
 .intro__title {
     letter-spacing: 0.05em;
-    color: var(--clr-very-dark-blue);
+    color: var(--color-very-dark-blue);
     text-align: center;
     font-size: clamp(1.5rem, 1.127vw + 1.236rem, 2.25rem);
     margin-bottom: clamp(1.313rem, 0.376vw + 1.224rem, 1.563rem);
@@ -133,7 +133,7 @@ body {
     flex-shrink: 0;
     overflow: hidden;
     position: relative;
-    background-color: var(--clr-white);
+    background-color: var(--color-white);
     padding: clamp(1.75rem, 0.38vw + 1.66rem, 2rem);
     border-radius: 0.5rem;
     box-shadow: 0px 24px 60px -24px hsla(var(--item-color-hsl), 40%);
@@ -149,21 +149,21 @@ body {
     top: 0;
 }
 .feature__item:nth-child(1) {
-    --item-color-hsl: var(--clr-cyan-hsl);
+    --item-color-hsl: var(--color-cyan-hsl);
 }
 .feature__item:nth-child(2) {
-    --item-color-hsl: var(--clr-red-hsl);
+    --item-color-hsl: var(--color-red-hsl);
 }
 .feature__item:nth-child(3) {
-    --item-color-hsl: var(--clr-orange-hsl);
+    --item-color-hsl: var(--color-orange-hsl);
 }
 .feature__item:nth-child(4) {
-    --item-color-hsl: var(--clr-blue-hsl);
+    --item-color-hsl: var(--color-blue-hsl);
 }
 .feature__title {
     font-size: 1.25rem;
     line-height: 1.6875rem;
-    color: var(--clr-very-dark-blue);
+    color: var(--color-very-dark-blue);
     letter-spacing: -0.01em;
     margin-bottom: clamp(0.5rem, 0.188vw + 0.456rem, 0.625rem);
 }
